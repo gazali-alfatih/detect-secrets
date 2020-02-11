@@ -1,4 +1,4 @@
-pipeline {
+node {
   stage "Sonarqube"
                 def scannerHome = tool 'sonarqube'
                 def projectKey = ‘test123’
